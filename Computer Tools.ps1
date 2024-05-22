@@ -56,6 +56,7 @@ switch ($userChoice) {
 		Write-Output "Serial Number: $($systemBIOS.SerialNumber)"
 # get Computer model
 		$computerModel = $computerInfo.Model
+  		Write-Host "Computer Model: $computerModel"
 	# Get the current date and time
 		$currentDateTime = Get-Date
 
@@ -264,6 +265,7 @@ switch ($userChoice) {
 		Write-Output "Serial Number: $($systemBIOS.SerialNumber)"
 # get Computer model
 		$computerModel = $computerInfo.Model
+  		Write-Host "Computer Model: $computerModel"
 	# Get the current date and time
 		$currentDateTime = Get-Date
 
